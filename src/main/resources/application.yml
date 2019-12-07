@@ -4,3 +4,6 @@ spring:
     password: 123456.123
     url: jdbc:mysql://101.37.79.100:3306/test
     driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis/mybatis-conf.xml
+  mapper-locations: mybatis/mapper/UserMapper.xml
